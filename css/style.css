@@ -65,17 +65,17 @@ nav ul li{
 }
 
 a:link {
-	color:#ffffff;
+	color:white;
 	text-decoration:none;
 }
 
 a:visited {
-	color:#0000ff;
+	color:#fff;
 	text-decoration:none;
 }
 
 a:hover {
-	color:#ffcc00;
+	color:#fc0;
 }
 
 
@@ -192,7 +192,7 @@ p {
 	position: fixed;
 	height:70px;
 	width:100%;
-	background:rgba(0,0,0, .2);
+	background:rgba(0,0,0, 100);
 	border-top:solid 2px white;
 	border-bottom:solid 2px white;
 	z-index:+2;
