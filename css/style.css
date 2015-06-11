@@ -65,12 +65,12 @@ nav ul li{
 }
 
 a:link {
-	color:white;
+	color:rgb(85,195,166);
 	text-decoration:none;
 }
 
 a:visited {
-	color:#fff;
+	color:rgb(85,195,166);
 	text-decoration:none;
 }
 
