@@ -16,7 +16,7 @@ body {
 	padding: 0px;
 	margin: 0px;
 	border: solid 0px #FFF;
-	height: 200px;
+	height: 250px;
 	width: 100%;
 	background: black;
 	z-index:+1;
@@ -92,9 +92,14 @@ a:hover {
 	top:100px;
 }
 
+/*///////////////////////////////////////
+Donate Button ???? //////////////////////
+///////////////////////////////////////*/
+
 .btn{
-	right:120px;
-	top:130px;
+	right:100px;
+	top:120px;
+	width: 202px;
 	position:absolute;
 	background-color:#000000;
 	border-radius:12px;
@@ -164,8 +169,11 @@ a:hover {
 	position: relative;
 	top: 30px;
 	left: 30px;
-	
 }
+
+/*///////////////////////////////////////
+Learn with us form //////////////////////
+///////////////////////////////////////*/
 
 #tableHead {
 	border: solid 0px white;
@@ -206,24 +214,36 @@ a:hover {
 	border: solid 0px white;
 }
 
-input[type='submit'] {
-	right:64px;
-	top:90px;
-	position:absolute;
-	background-color:#000000;
-	border-radius:12px;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	font-weight:bold;
-	padding:30px 50px;
-	text-decoration:none;
+/*///////////////////////////////////////
+Submit Button "join us!"/////////////////
+///////////////////////////////////////*/
+
+#submitButton {
+	right: 64px;
+	top: 90px;
+	position: absolute;
+	background-color: black;
+	border-radius: 12px;
+	cursor: pointer;
+	color: white;
+	font-family: Arial;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 30px;
+	text-decoration: none;
+	/*vertical-align: middle;
+	margin-left: auto;
+    margin-right: auto;
+    margin:7px 50px 0px 0px*/
 }
 
-.btn:hover {
+#submitButton:hover {
 	background-color:rgb(85,195,166);
 }
+
+/*///////////////////////////////////////
+Main Content ////////////////////////////
+///////////////////////////////////////*/
 
 #contentOverview {
 	border: solid 0px white;
@@ -241,6 +261,10 @@ input[type='submit'] {
 p {
 	text-indent: 100px;
 }
+
+/*///////////////////////////////////////
+Fixed Footer ////////////////////////////
+///////////////////////////////////////*/
 
 #contact {
 	position: fixed;
@@ -266,7 +290,7 @@ p {
 
 #contact li{
 	position:relative;
-	border:solid 0px #FFF;
+	border:solid 0px white;
 	text-align:center;
 	vertical-align:middle;
 	width:33%;
