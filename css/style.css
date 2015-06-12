@@ -1,5 +1,8 @@
 /*styling index.html*/
-
+/**{
+	border: solid 1px white;
+}
+*/
 body {
 	background-color:black;
 	width:100%;
