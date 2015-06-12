@@ -178,8 +178,13 @@ a:hover {
 	display: inline-block;
 }
 
+#formFill input {
+	width: 50%;
+	height: 15%;
+}
+
 #contentOverview {
-	border: solid 1px white;
+	border: solid 0px white;
 	position: absolute;
 	top: 400px;
 	padding: 20px;
