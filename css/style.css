@@ -6,6 +6,7 @@ This formats everything /////////////////
 
 * {
 	border: solid 0px white;
+	color: white;
 }
 
 body {
@@ -299,9 +300,7 @@ Main Content ////////////////////////////
 	height: 100%;
 }
 
-#wrapper3{
-	color:white;
-}
+
 
 
 p {
@@ -349,72 +348,65 @@ Contact Bottom Page /////////////////////
 }
 
 /*///////////////////////////////////////
-? ///////////////////////////////////////
-///////////////////////////////////////*/
-
-#container {
-	width: 1000;
-	height: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	border: 3px solid red;
-
-}
-#submit {
-	width: 100%;
-	color: #00f;
-	background-color: #ddd;
-	text-align: center;
-	font-size:2em;
-	float: right;
-}
-
-#donate {
-	float: left;
-	margin-left: 10px;
-	border: 1px solid blue;
-	font-size: 20px;
-	font-family: "";
-	width: 400px;
-	height: 500px;
-}
-#payby {
-	float: right;
-	margin-right: 10px;
-	border: 1px solid blue;
-	font-size: 20px;
-	font-family: "";
-	width: 400px;
-	height: 500px;
-}
-#logo button {
-	float: right;
-	margin: 100px;
-}
-#navbar ul li{
-	list-style-type:  none;
-	display: inline-block;
-	font-size: 20px;
-	font-weight: bold;
-}
-#social ul li{
-	list-style-type:  none;
-	display: inline-block;
-	margin: 2px;
-	padding: 1px;
-}
-
-
-/*///////////////////////////////////////
 donate.html //////////////////////////////
 ///////////////////////////////////////*/
 
-#containerDonate {
+#wrapper4 {
 	border: solid 0px white;
-	height: 600px;
-	padding: 20px;
-	color: white;
+	margin: 0 auto;
+	position: relative;
+	height: 500px;
+	width: 1000px;
+	top: 120px;
 }
+
+#donateBlurb {
+	font-family: 'Megrim';
+	text-align: middle;
+	position: relative;
+}
+
+#donate {
+	border: solid 0px white;
+	position: relative;
+	float: left;
+	padding-left: 50px;
+	font-size: 20px;
+	font-family: 'Megrim';
+	width: 400px;
+	height: 500px;
+}
+
+#payment {
+	float: right;
+	padding-left: 50px;
+	border: solid 0px white;
+	font-size: 20px;
+	font-family: 'Megrim';
+	width: 400px;
+	height: 500px;
+}
+
+.btn2{
+	right: 160px;
+	top: 320px;
+	width: 240px;
+	position: absolute;
+	background-color: black;
+	border-radius: 12px;
+	cursor: pointer;
+	color: white;
+	font-family: 'Megrim';
+	font-size: 17px;
+	font-weight: bold;
+	padding: 30px 50px;
+	text-decoration: none;
+	border: solid 1px white;
+}
+.btn2:hover {
+	background-color: rgba(85,195,166, .6);
+}
+
 
 /*///////////////////////////////////////
 about.html //////////////////////////////

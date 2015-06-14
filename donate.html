@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head><title>Code for girls</title>
+<head>
+	<title>Code for Girls</title>
 	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="shortcut icon" href="images/pik.ico"/>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css" />
 </head>
 <body>
 
@@ -30,6 +35,22 @@
 </div> <!--this is to close the div id wrapper-->
 <div id="wrapper2">
 	
+	<div class="social socialFB">
+		<li><a href="https://www.facebook.com" target="_blank" class="iconHover"><img src="images/fb.png"/></a></li>
+	</div>
+
+	<div class="social socialTW">
+		<li><a href="https://www.twitter.com" target="_blank"><img src="images/tw.png"/></a></li>
+	</div>
+
+	<div class="social socialIG">
+		<li><a href="https://www.instagram.com" target="_blank" class="iconHover"><img src="images/insta.png"/></a></li>
+	</div>
+
+	<div class="social socialGM">
+		<li><a href="https://www.gmail.com" target="_blank"><img src="images/email.png"/></a></li>
+	</div>
+
 	<nav id="navBar">
 	<ul id="fixedNav">
 		<li><a href="index.html" target="_blank">HOME</a></li>
@@ -38,21 +59,56 @@
 	</ul>
 	</nav>
 	
-	<div id="containerDonate">
-		<div id="donateContent"> <h3> Select a donation amount </h3></div>
-		<div id="paybyContent"> Select a payment method </div>
-	</div> <!--this is to close the div id Container-->
 </div> <!--this is to close the div id wrapper2-->
 
-	<div id="wrapper3">
+<div id="wrapper3">
 	<div id="contact">
 		<ul>
-			<li> phone: (123)456-7890 </li>
-			<li> email: girlscode@girlscode.com </li>
-			<li> visit: 123 John Street, New York, NY </li>
+			<li><a href="https://www.skype.com" target="_blank"> phone: (123)456-7890 </a></li>
+			<li><a href="https://www.gmail.com" target="_blank"> email: girlscode@girlscode.com </a></li>
+			<li><a href="https://www.google.com/maps/place/90+John+St,+New+York,+NY+10038/@40.7079921,-74.0065857,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25a17e1acd123:0x7b2c1ea2703584f9" target="_blank"> visit: 90 John Street, New York, NY 10038 </a></li>
 		</ul>
+	</div>
 </div> <!--this is to close the div id wrapper3-->
+
+<div id="wrapper4">
+	<h1 id="donateBlurb"> Help to supplement the Code for Girls scholarship to get and keep more girls in tech! </h1>
+
+	<div id="donate">
+	 <h2> Donation Amount </h2>
+		 <form>
+		  <input type="radio" name="amount" value="10" checked> $10 <br><br>
+		  <input type="radio" name="amount" value="20"> $20 <br><br>
+		  <input type="radio" name="amount" value="50"> $50 <br><br>
+		  <input type="radio" name="amount" value="100"> $100 <br><br>
+		 </form>
+	</div><!--this is to close the div id donate-->
+	
+	<div id="payment">  
+	 <h2> Payment Method </h2>
+		 <form>
+		  <input type="radio" name="method" value="paypal" checked> Paypal
+		  <img src="https://www.paypal.com/en_US/i/logo/PayPal_mark_37x23.gif" id="paypal" ><br><br>
+		  <input type="radio" name="method" value="debit"> Debit <br><br>
+		  <input type="radio" name="method" value="credit"> Credit <br>
+	 </form><br><br>
+	 
+	 <button type="submit" form="form1" value="Submit" class="btn2"> Make a payment </button>
+	</div><!--this is to close the div id payment-->
+</div><!--this is to close the div wrapper4-->
 
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
